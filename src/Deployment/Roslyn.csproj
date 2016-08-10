@@ -29,7 +29,7 @@
   <PropertyGroup>
     <StartAction>Program</StartAction>
     <StartProgram>$(DevEnvDir)devenv.exe</StartProgram>
-    <StartArguments>/rootsuffix RoslynDev /log</StartArguments>
+    <StartArguments>/rootsuffix Exp /log</StartArguments>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Compilers\Extension\CompilerExtension.csproj">

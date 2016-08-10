@@ -51,7 +51,7 @@ should first do a full build of Roslyn.sln to make sure everything is primed.
 Then, you can run Visual Studio by right clicking the appropriate project in
 Visual Studio, setting it as a startup project, and pressing F5. You can also
 run Visual Studio after building by running a "Developer Command Prompt for
-VS2015" and then running `devenv /rootsuffix RoslynDev`.
+VS2015" and then running `devenv /rootsuffix Exp`.
 
 Here are what is deployed with each extension, by project that builds it. If
 you're working on a particular area, you probably want to set the appropriate
@@ -100,7 +100,7 @@ The experimental instance used by Roslyn is an entirely separate instance of
 Visual Studio with it's own settings and installed extensions. It's also, by
 default, a separate instance than the standard "Experimental Instance" used by
 other Visual Studio SDK projects. If you're familiar with the idea of Visual
-Studio hives, we deploy into the RoslynDev root suffix.
+Studio hives, we deploy into the Exp root suffix.
 
 If you want to try your extension in your day-to-day use of Visual Studio, you
 can find the extensions you built in your Binaries folder with the .vsix

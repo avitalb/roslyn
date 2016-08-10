@@ -1,0 +1,22 @@
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.AbortExecution() -> void
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.ContentType.get -> Microsoft.VisualStudio.Utilities.IContentType
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.CurrentWindow.get -> Microsoft.VisualStudio.InteractiveWindow.IInteractiveWindow
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.CurrentWindow.set -> void
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.Dispose() -> void
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.ExecuteCodeAsync(string text) -> System.Threading.Tasks.Task<Microsoft.VisualStudio.InteractiveWindow.ExecutionResult>
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.FormatClipboard() -> string
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.GetConfiguration() -> string
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.GetPrompt() -> string
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.InitializeAsync() -> System.Threading.Tasks.Task<Microsoft.VisualStudio.InteractiveWindow.ExecutionResult>
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.InteractiveEvaluator(Microsoft.VisualStudio.Utilities.IContentType contentType, Microsoft.CodeAnalysis.Host.HostServices hostServices, Microsoft.VisualStudio.Text.Classification.IViewClassifierAggregatorService classifierAggregator, Microsoft.VisualStudio.InteractiveWindow.Commands.IInteractiveWindowCommandsFactory commandsFactory, System.Collections.Immutable.ImmutableArray<Microsoft.VisualStudio.InteractiveWindow.Commands.IInteractiveWindowCommand> commands, string responseFilePath, string initialWorkingDirectory, string interactiveHostPath, System.Type replType) -> void
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.ReferenceSearchPaths.get -> System.Collections.Immutable.ImmutableArray<string>
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.ResetAsync(bool initialize = true) -> System.Threading.Tasks.Task<Microsoft.VisualStudio.InteractiveWindow.ExecutionResult>
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.SetPathsAsync(System.Collections.Immutable.ImmutableArray<string> referenceSearchPaths, System.Collections.Immutable.ImmutableArray<string> sourceSearchPaths, string workingDirectory) -> System.Threading.Tasks.Task
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.SourceSearchPaths.get -> System.Collections.Immutable.ImmutableArray<string>
+Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.WorkingDirectory.get -> string
+abstract Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.CommandLineParser.get -> Microsoft.CodeAnalysis.CommandLineParser
+abstract Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.GetSubmissionCompilationOptions(string name, Microsoft.CodeAnalysis.MetadataReferenceResolver metadataReferenceResolver, Microsoft.CodeAnalysis.SourceReferenceResolver sourceReferenceResolver, System.Collections.Immutable.ImmutableArray<string> imports) -> Microsoft.CodeAnalysis.CompilationOptions
+abstract Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.LanguageName.get -> string
+abstract Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.ParseOptions.get -> Microsoft.CodeAnalysis.ParseOptions
+virtual Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.CanExecuteCode(string text) -> bool

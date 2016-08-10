@@ -19,7 +19,7 @@ using Microsoft.VisualStudio.Text.Editor;
 
 namespace Microsoft.VisualStudio.LanguageServices.Interactive
 {
-    internal abstract class VsInteractiveWindowProvider
+    public abstract class VsInteractiveWindowProvider
     {
         private readonly IVsInteractiveWindowFactory _vsInteractiveWindowFactory;
         private readonly SVsServiceProvider _vsServiceProvider;

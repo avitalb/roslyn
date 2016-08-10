@@ -5,7 +5,7 @@ namespace Microsoft.CodeAnalysis.Internal.Log
     /// <summary>
     /// Enum to uniquely identify each function location.
     /// </summary>
-    internal enum FunctionId
+    public enum FunctionId
     {
         // a value to use in unit tests that won't interfere with reporting
         // for our other scenarios.

@@ -8,7 +8,7 @@
       <Value Profile="(Default)">14.0</Value>
     </Setting>
     <Setting Name="VsRootSuffix" Type="System.String" Scope="User">
-      <Value Profile="(Default)">RoslynDev</Value>
+      <Value Profile="(Default)">Exp</Value>
     </Setting>
   </Settings>
 </SettingsFile>

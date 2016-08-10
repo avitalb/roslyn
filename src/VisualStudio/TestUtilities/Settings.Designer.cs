@@ -37,7 +37,7 @@ namespace Roslyn.VisualStudio.Test.Utilities {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("RoslynDev")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Exp")]
         public string VsRootSuffix {
             get {
                 return ((string)(this["VsRootSuffix"]));

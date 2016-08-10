@@ -30,7 +30,7 @@ namespace Microsoft.CodeAnalysis.Editor.Interactive
 {
     using RelativePathResolver = Scripting::Microsoft.CodeAnalysis.RelativePathResolver;
 
-    internal abstract class InteractiveEvaluator : IInteractiveEvaluator, ICurrentWorkingDirectoryDiscoveryService
+    public abstract class InteractiveEvaluator : IInteractiveEvaluator, ICurrentWorkingDirectoryDiscoveryService
     {
         private const string CommandPrefix = "#";
 
@@ -71,7 +71,7 @@ namespace Microsoft.CodeAnalysis.Editor.Interactive
         public ImmutableArray<string> SourceSearchPaths { get; private set; }
         public string WorkingDirectory { get; private set; }
 
-        internal InteractiveEvaluator(
+        public InteractiveEvaluator(
             IContentType contentType,
             HostServices hostServices,
             IViewClassifierAggregatorService classifierAggregator,
