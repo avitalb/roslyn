@@ -14,7 +14,7 @@ using Microsoft.VisualStudio.Utilities;
 namespace Microsoft.VisualStudio.InteractiveWindow
 {
     [Export(typeof(IInteractiveWindowFactoryService))]
-    internal class InteractiveWindowProvider : IInteractiveWindowFactoryService
+    public class InteractiveWindowProvider : IInteractiveWindowFactoryService
     {
         private readonly IContentTypeRegistryService _contentTypeRegistry;
         private readonly ITextBufferFactoryService _bufferFactory;
